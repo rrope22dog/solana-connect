@@ -26,6 +26,7 @@ solConnect.onWalletChange((adapter) =>
 );
 
 solConnect.onVisibilityChange((isOpen) => {
+
   console.log("menu visible:", isOpen);
 });
 ```
